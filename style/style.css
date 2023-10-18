@@ -1,0 +1,161 @@
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0; 
+}
+
+body {
+  background: rgb(47, 46, 46);
+  font-family: windows;
+  color: white;
+  font-size: 14px; 
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  clear: both;
+  position: relative; 
+}
+
+.module {
+  position: relative;
+  float: left;
+  display: inline-block;
+  margin: 7px 14px 7px 0; 
+}
+  
+.module.single {
+    width: 163px;
+    height: 170px; 
+  
+  }
+.module.double {
+    width: 340px;
+    height: 170px;
+  }
+
+
+h1 {
+  float: left;
+  font-size: 45px; 
+}
+
+
+.title {
+  position: absolute;
+  top: 125px;
+  left: 20px;
+  font-size: 14px; 
+}
+
+.sub-heading {
+  font-size: 20px;
+  width: 65%;
+  padding: 10px 0 0 20px; 
+}
+
+.sub-heading-small{
+  font-size: 20px;
+  padding: 10px 0 0 20px;
+}
+
+.blue {
+  background-color: #02bee1; }
+  .blue:hover, .blue:focus {
+    background-color: #017e95;
+}
+
+.green {
+  background-color: #62bc0f; }
+  .green:hover, .green:focus {
+    background-color: #3d7509;
+}
+
+.pink {
+  background-color: #d02547; }
+  .pink:hover, .pink:focus {
+    background-color: #8f1931;
+}
+
+.orange {
+  background-color: #dc6a25; }
+  .orange:hover, .orange:focus {
+    background-color: #9c4a19;
+}
+
+.yellow {
+  background-color: #dfc202; }
+  .yellow:hover, .yellow:focus {
+    background-color: #938001;
+}
+
+.darkblue {
+  background-color: #0d4b97; }
+  .darkblue:hover, .darkblue:focus {
+    background-color: #072851;
+}
+
+.midblue {
+  background-color: #3b5998; }
+  .midblue:hover, .midblue:focus {
+    background-color: #263961;
+}
+
+.red {
+  background-color: #b91d21; }
+  .red:hover, .red:focus {
+    background-color: #771315;
+}
+
+.purple {
+  background-color: #8e81a7; }
+  .purple:hover, .purple:focus {
+    background-color: #685a81;
+  }
+
+
+#slider-nav {
+  margin-top: 25px; }
+
+button {
+  width: 100px;
+  height: 100px;
+  border: 0;
+  background-color: rgba(30, 0, 85, 0.5);
+  position: absolute;
+  top: 320px;
+  left: -120px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 36px; }
+  button:hover, button:focus {
+    background-color: rgba(39, 0, 100, 0);
+    font-size: 45px;
+    cursor: pointer;
+  }
+
+[data-dir='next'] {
+  left: 1070px; 
+}
+
+.slider {
+  width: 1070px;
+  height: 547px;
+  overflow: hidden;
+  margin-top: 30px; 
+  padding-left:10px;
+  margin-left:-10px;
+}
+
+.slider ul {
+  width: 10000px;
+  }
+
+.slider li {
+  float: left;
+  height: 547px;
+  width: 1070px; }
+
+footer {
+  margin: 40px 0 0 0;
+  font-size: 12px; }
