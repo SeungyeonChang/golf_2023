@@ -1,9 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Pacifico&family=Pixelify+Sans&display=swap');
+
 ul, li {
   list-style: none;
   padding: 0;
   margin: 0; 
 }
 
+.navbar-brand{
+  font-family: 'Alumni Sans Collegiate One', sans-serif;
+  font-size: 79px;
+}
+
+.nav-item{
+  font-family: 'Pacifico', cursive;
+}
+
+.btn-success{
+  font-family: 'Alumni Sans Collegiate One', sans-serif;
+  letter-spacing: 3px;
+  font-size: 21px;
+  color: rgb(0, 82, 73);
+}
+
+.link{
+  font-family: 'Pacifico', cursive;
+  
+}
 body {
   background: rgb(47, 46, 46);
   font-family: windows;
@@ -46,18 +68,23 @@ h1 {
   position: absolute;
   top: 125px;
   left: 20px;
-  font-size: 14px; 
+  font-size: 19px; 
+  font-family: 'Pixelify Sans', sans-serif;
 }
 
 .sub-heading {
-  font-size: 20px;
+  font-size: 25px;
   width: 65%;
   padding: 10px 0 0 20px; 
+  font-family: 'Pixelify Sans', sans-serif;
+
 }
 
 .sub-heading-small{
-  font-size: 20px;
+  font-size: 23px;
   padding: 10px 0 0 20px;
+  font-family: 'Pixelify Sans', sans-serif;
+
 }
 
 .blue {
@@ -158,4 +185,6 @@ button {
 
 footer {
   margin: 40px 0 0 0;
-  font-size: 12px; }
+  font-size: 25px; 
+  font-family: 'Pacifico', cursive;
+}
