@@ -130,7 +130,7 @@
 		  },
 		  {
 			divStyle: "module yellow single img",
-            divSize: "sub-heading",
+            divSize: "sub-heading-small",
 			devName: "Levon W",
 			gameLink: "https://v-sec0.github.io/delta-daggerfall-lab/",
 			repoLink: "https://github.com/v-sec0/delta-daggerfall-lab",

@@ -52,8 +52,8 @@
 		  `<div class="  ${value.divStyle} ">
 			<h2 class="title">${value.devName}</h2>
 				<p class=" ${ value.divSize }">${value.gameName}</p>
-			<a href="${value.gmaeLink}" target ="_blank" class ="btn btn-success" >Play</a>
-			<a href="${value.reopLInk}" target = "_blank" class="link">See the Code</a>
+			<a href="${value.gameLink}" target ="_blank" class ="btn btn-success" >Play</a>
+			<a href="${value.repoLink}" target = "_blank" class="link">See the Code</a>
 			</div>
 					`
 		);}
@@ -62,8 +62,8 @@
 				`<div class="  ${value.divStyle} ">
 				  <h2 class="title">${value.devName}</h2>
 					  <p class=" ${ value.divSize }">${value.gameName}</p>
-				  <a href="${value.gmaeLink}" target ="_blank" class ="btn btn-success" >Play</a>
-				  <a href="${value.reopLink}" target = "_blank" class="link">See the Code</a>
+				  <a href="${value.gameLink}" target ="_blank" class ="btn btn-success" >Play</a>
+				  <a href="${value.repoLink}" target = "_blank" class="link">See the Code</a>
 				  </div>
 						  `			
 	  );}
